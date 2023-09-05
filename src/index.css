@@ -15,7 +15,7 @@ body{
   overflow-x: hidden;
 }
 .tot{
-  width: fit-content;
+  width: 20% !important;
 }
 
 .small-head{
@@ -46,9 +46,31 @@ p{
 
 h2,h3{
   color:  hsl(210, 10%, 33%);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 body{
   font-size: 18px;
+}
+
+.ww{
+  font-weight: 700;
+}
+
+@media (max-width: 700px) {
+  .ww{
+    width: 100%;
+    
+  }
+  
+}
+
+.mw{
+  max-width: 600px;
+}
+
+.footer{
+ border-top: 1px,solid rgb(255, 255, 255);
+ background: rgb(255, 249, 249);
+ 
 }
